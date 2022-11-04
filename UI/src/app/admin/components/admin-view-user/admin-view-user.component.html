@@ -1,0 +1,61 @@
+<main class="col-md-12 ml-sm-auto col-lg-12 px-md-4 py-4 vh-100">
+
+    <div *ngIf="isReady && !errorMessage" class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Admin</li>
+            <li class="breadcrumb-item active" aria-current="page">Korisnik</li>
+        </ol>
+      </nav>
+        <h1 class="text-white">Korisnik - {{user.id}}</h1>
+    <form #form="ngForm" (ngSubmit)="onSubmit()" class="text-white">
+    
+      <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Registrovan</label>
+            <input type="text" class="form-control" name="createdAt" [(ngModel)]="user.createdAt" readonly>
+      </div>
+       
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Uloga</label>
+        <input type="text" class="form-control" name="role" [(ngModel)]="user.role" readonly>
+     </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Ime</label>
+        <input type="text" class="form-control" name="FirstName" [(ngModel)]="user.firstName">
+      </div>
+    
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Prezime</label>
+        <input type="text" class="form-control" name="LastName" [(ngModel)]="user.lastName">
+      </div>        
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Korisničko ime</label>
+        <input type="text" class="form-control" name="username" [(ngModel)]="user.username">
+      </div>   
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Email</label>
+        <input type="email" class="form-control" name="email" [(ngModel)]="user.email">
+      </div>    
+
+      
+       
+        <div class="container text-center pt-3">
+          <button type="button" class="btn mr-3 btn-info"><a routerLink="/admin/users" class="text-white"><i class="fa-solid fa-users"></i> Korisnici</a></button>
+          <button type="submit" class="btn btn-primary">Sačuvaj promene</button>
+    
+        </div>
+      </form>
+    </div>
+    <div class='container my-3 bg-success text-center' *ngIf="resp != '' ">
+      <p class="text-uppercase py-4 fw-bold text-white">{{resp}}</p>
+    </div>
+    <div  *ngIf="errorMessage" class="d-flex align-items-center justify-content-center flex-column vh-100">
+      <h1 class="display-1 fw-bold text-white">404</h1>
+      <h2 class="display-1 fw-bold text-warning">{{errorMessage}}</h2>
+    </div>
+    </main>
+    
+    
+    

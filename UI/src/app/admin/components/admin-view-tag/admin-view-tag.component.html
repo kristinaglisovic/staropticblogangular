@@ -1,0 +1,47 @@
+<main class="col-md-12 ml-sm-auto col-lg-12 px-md-4 py-4 vh-100">
+
+    <div *ngIf="isReady && !errorMessage" class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Admin</li>
+            <li class="breadcrumb-item active" aria-current="page">Tag</li>
+        </ol>
+      </nav>
+        <h1 class="text-white">Tag - {{tag.id}}</h1>
+    <form #form="ngForm" (ngSubmit)="onSubmit()" class="text-white">
+    
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Kreiran</label>
+        <input type="text" class="form-control" name="createdAt" [(ngModel)]="tag.createdAt" readonly>
+      </div>
+    
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Naziv</label>
+          <input type="text" class="form-control" name="title" [(ngModel)]="tag.name">
+        </div>          
+    
+          <div class="d-flex align-items-center justify-content-center flex-column">
+            <label for="isActive">Aktivan</label>
+            <input type="checkbox" class="form-check-input form-control" id="isActive" name="isActive" [(ngModel)]="tag.isActive" [checked]="tag.isActive" [disabled]="tag.isActive && tag.postsCount>=1">
+            <span *ngIf="tag.isActive && tag.postsCount>=1" class="text-muted">Tag je povezan sa najmanje 1 postom i ne može se deaktivirati</span>
+          </div>
+      
+       
+        <div class="container text-center pt-3">
+          <button type="button" class="btn mr-3 btn-info"><a routerLink="/admin/tags" class="text-white"><i class="fa-solid fa-hashtag"></i> Tagovi</a></button>
+          <button type="submit" class="btn btn-primary">Sačuvaj promene</button>
+    
+        </div>
+      </form>
+    </div>
+    <div class='container my-3 bg-success text-center' *ngIf="resp != '' ">
+      <p class="text-uppercase py-4 fw-bold text-white">{{resp}}</p>
+    </div>
+    <div  *ngIf="errorMessage" class="d-flex align-items-center justify-content-center flex-column vh-100">
+      <h1 class="display-1 fw-bold text-white">404</h1>
+      <h2 class="display-1 fw-bold text-warning">{{errorMessage}}</h2>
+    </div>
+    </main>
+    
+    
+    

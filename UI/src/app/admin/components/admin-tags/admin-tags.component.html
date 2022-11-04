@@ -1,0 +1,52 @@
+<main class="col-md-12 col-lg-12 px-md-4 vh-100 py-4">
+
+    <div class="container table-responsive">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Admin</li>
+            <li class="breadcrumb-item active" aria-current="page">Svi tagovi</li>
+        </ol>
+    </nav>
+        <table class="table table-dark table-striped table-hover">
+            <thead>
+                <tr>
+                  <th scope="col">Id</th>
+                  <th scope="col">Naziv</th>
+                  <th scope="col">Aktivan</th>
+                  <th scope="col">Kreiran</th>
+                  <th scope="col">Ažuriran</th>
+                  <th scope="col">Br.postova</th>
+                  <th scope="col">Pogledaj</th>
+                  <th scope="col">Obriši</th>
+                  <th scope="col">Deaktiviraj</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let t of tags | paginate: { itemsPerPage: 5, currentPage: p, totalItems: total } ">
+                    <td>{{t.id}}</td>
+                    <td>{{t.name}}</td>
+                    <td>{{t.isActive ? "Da" : "Ne"}}</td>
+                    <td>{{t.createdAt}}</td>
+                    <td>{{t.updatedAt ? t.updatedAt : 'Nije ažuriran'}}</td>
+                    <td  class="text-center">{{t.postsCount}}</td>
+                    <td class="text-center"><a [routerLink]="['/admin/tags',t.id]"><i class="fa-solid fa-eye text-warning"></i></a></td>
+                    <td class="text-center"><button class='btn' [disabled]="t.postsCount>=1" (click)="delete(t.id)"><i class="fa-solid text-danger fa-trash-can"></i></button></td>
+                    <td class="text-center"><button class='btn' [disabled]="!t.isActive || t.postsCount>=1" (click)="changeStatus(t.id)"><i [ngClass]="t.isActive ? 'fa-solid fa-circle-check text-success':'fa-solid fa-circle-xmark text-danger'" ></i></button></td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            <div class="container paginacija text-center">
+              <pagination-controls (pageChange)="pageChangeEvent($event)"></pagination-controls>
+              <span>Ukupno: {{total}}</span>
+            </div>
+          <div class='container my-3 bg-success text-center' *ngIf="resp != '' ">
+            <p class="text-uppercase py-4 fw-bold text-white">{{resp}}</p>
+          </div>
+          <div class="container text-right pt-3">
+            <p class="text-warning fw-bold">DODAJ NOVI TAG</p>
+            <app-add-tag></app-add-tag>
+          </div>
+    </main>
+    

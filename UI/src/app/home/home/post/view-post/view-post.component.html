@@ -1,0 +1,42 @@
+<main class="post blog-post col-lg-12" *ngIf="isReady">
+    <div class="container">
+        <div class="post-single">
+            <h1 class="pb-4">{{post.title}}</h1>
+            <div class="post-thumbnail"><img src="http://localhost:5000/Images/{{post.images[0]}}" alt="{{post.title}}" class="img-fluid"></div>
+            <div class="post-details">
+                <div class="post-meta d-flex justify-content-between">
+                    <div *ngFor='let c of post.categories' class="category">{{c.name}}</div>
+                </div>
+                <div class="post-footer d-flex align-items-center flex-column flex-sm-row"><div class="author d-flex align-items-center flex-wrap">
+                        <div class="title"><span>Autor: {{post.author}}</span></div></div>
+                    <div class="d-flex align-items-center flex-wrap">
+                        <div class="date"><i class="icon-clock"></i>{{post.createdAt}}</div>
+                        <div class="comments meta-last"><i class="fa-solid fa-comments"></i>{{post.commentsCount}}</div>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p class="lead">{{post.description}}</p>
+                </div>
+
+                 <div class="post-comments">
+                    <header>
+                        <h3 class="h6">Komentari<span class="no-of-comments">({{post.commentsCount}})</span></h3>
+                    </header>
+
+                    <div class="comment" *ngFor="let c of post.comments">
+                        <div class="comment-body">
+                                <div class="title"><i class="fa-solid fa-user"></i><strong>{{c.user}}</strong><span class="date">{{c.commentedAt}}</span></div>
+                            <p>{{c.comment}}</p>
+                        </div>
+                    </div>
+                 
+
+                </div>
+                <ng-container>
+                    <app-create-comment [PostId]="post.id"></app-create-comment>
+                </ng-container>
+        </div>
+    </div>
+    </div>
+
+</main>

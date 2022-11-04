@@ -1,0 +1,60 @@
+<main class="col-md-12 col-lg-12 px-md-4 vh-100 py-4">
+
+    <div class="container table-responsive">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Admin</li>
+            <li class="breadcrumb-item active" aria-current="page">Korisnici</li>
+        </ol>
+    </nav>
+        <table class="table table-dark table-striped table-hover">
+            <thead>
+                <tr>
+                  <th scope="col">Id</th>
+                  <th scope="col">Ime</th>
+                  <th scope="col">Prezime</th>
+                  <th scope="col">Uloga</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Slika</th>
+                  <th scope="col">Broj postova</th>
+                  <th scope="col">Registrovan</th>
+                  <th scope="col">Ažuriran</th>
+                  <th scope="col">Pogledaj</th>
+                  <th scope="col">Obriši</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let u of users | paginate: { itemsPerPage: 5, currentPage: p, totalItems: total } ">
+                    <td>{{u.id}}</td>
+                    <td>{{u.firstName}}</td>
+                    <td>{{u.lastName}}</td>
+                    <td>{{u.role=="User" ? "Korisnik": u.role}}</td>
+                    <td>{{u.email}}</td>
+                    
+                    <td *ngIf="u.image=='No image';else imasliku">Nema sliku</td>
+                    <ng-template #imasliku>
+                      <td  class="text-center"><img src="http://localhost:5000/Images/{{u.image}}" class="img-thumbnail slika"></td>
+                    </ng-template>
+                    <td class="text-center">{{u.postsCount}}</td>
+                    <td>{{u.createdAt}}</td>
+                    <td>{{u.updatedAt ? u.updatedAt : 'Nije ažuriran'}}</td>
+                    <td class="text-center"><a [routerLink]="['/admin/users',u.id]"><i class="fa-solid fa-eye text-warning"></i></a></td>
+                    <td class="text-center"><button class='btn' (click)="delete(u.id)"><i class="fa-solid text-danger fa-trash-can"></i></button></td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            <div class="container paginacija text-center">
+              <pagination-controls (pageChange)="pageChangeEvent($event)"></pagination-controls>
+              <span>Ukupno: {{total}}</span>
+            </div>
+          <div class='container my-3 bg-success text-center' *ngIf="resp != '' ">
+            <p class="text-uppercase py-4 fw-bold text-white">{{resp}}</p>
+          </div>
+          <div class="container text-right pt-3">
+            <p class="text-warning fw-bold">KREIRAJ NOVOG ADMINA</p>
+            <app-add-user></app-add-user>
+          </div>
+    </main>
+    

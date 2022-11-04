@@ -1,0 +1,80 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Dodaj
+  </button>
+ 
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+    
+            <form [formGroup]="addUser" (ngSubmit)="onSubmit()">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Novi admin</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left">
+                      <div class="mb-3">
+                        <ng-container *ngIf="(f['FirstName'].touched && f['FirstName'].invalid)">
+                            <p *ngIf="f['FirstName'].hasError('required')" class="text-danger">Ime je obavezno</p>
+                            <p *ngIf="f['FirstName'].hasError('minlength')" class="text-danger">Minimalan broj karaktera je 2</p>
+                            <p *ngIf="f['FirstName'].hasError('maxlength')" class="text-danger">Maksimalan broj karaktera je 40</p>
+                            <p *ngIf="f['FirstName'].hasError('pattern')" class="text-danger">Dozvoljena su samo slova, specijalni karakteri i razmaci (npr. Sierra O'Neil)</p>
+                          </ng-container>
+                          <label for="firstName" class="form-label">Ime</label>
+                          <input type="text" class="form-control" id="firstName" aria-describedby="naziv" formControlName="FirstName" required>
+                      </div>
+                      <div class="mb-3">
+                        <ng-container *ngIf="(f['LastName'].touched && f['LastName'].invalid)">
+                            <p *ngIf="f['LastName'].hasError('required')" class="text-danger">Prezime je obavezno</p>
+                            <p *ngIf="f['LastName'].hasError('minlength')" class="text-danger">Minimalan broj karaktera je 3</p>
+                            <p *ngIf="f['LastName'].hasError('maxlength')" class="text-danger">Maksimalan broj karaktera je 40</p>
+                            <p *ngIf="f['LastName'].hasError('pattern')" class="text-danger">Dozvoljena su samo slova, specijalni karakteri i razmaci (npr. Sierra O'Neil)</p>
+                          </ng-container>
+                        <label for="lastName" class="form-label">Prezime</label>
+                        <input type="text" class="form-control" id="naziv" aria-describedby="lastName" formControlName="LastName" required>
+                     </div>
+                     <div class="mb-3">
+                        <ng-container *ngIf="(f['Username'].touched && f['Username'].invalid)">
+                            <p *ngIf="f['Username'].hasError('required')" class="text-danger">Korisničko ime je obavezno</p>
+                            <p *ngIf="f['Username'].hasError('pattern')" class="text-danger">Korisničko ime mora biti 4-25 karaktera. Dozvoljena su slova, brojevi . i _</p>
+                          </ng-container>
+                         <label for="username" class="form-label">Korisničko ime</label>
+                         <input type="text" class="form-control" id="username" aria-describedby="username" formControlName="Username" required>
+                     </div>
+                      <div class="mb-3">
+                        <ng-container *ngIf="(f['Email'].touched && f['Email'].invalid)">
+                            <p *ngIf="f['Email'].hasError('required')" class="text-danger">E-mail je obavezan</p>
+                            <p *ngIf="f['Email'].hasError('email')" class="text-danger">Neispravan format</p>
+                          </ng-container>
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="email" formControlName="Email" required>
+                      </div>
+                      <div class="mb-3">
+                        <ng-container *ngIf="(f['Password'].touched && f['Password'].invalid)">
+                            <p *ngIf="f['Password'].hasError('required')" class="text-danger">Lozinka je obavezna</p>
+                            <p *ngIf="f['Password'].hasError('minlength')" class="text-danger">Minimalan broj karaktera je 8</p>
+                            <p *ngIf="f['Password'].hasError('maxlength')" class="text-danger">Maksimalan broj karaktera je 15</p>
+                          </ng-container>
+                        <label for="password" class="form-label">Lozinka</label>
+                        <input type="password" class="form-control" id="password" aria-describedby="password" formControlName="Password" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="image" class="form-label">Slika</label>
+                        <input type="file" class="form-control" id="image" aria-describedby="image" (change)="onFileChange($event)" formControlName="Image">
+                        <p *ngIf="resp2!=''" class="text-danger pb-2">{{resp2}}</p>
+                    </div>
+              </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+                    <button type="submit" class="btn btn-primary" [disabled]="addUser.invalid">Dodaj</button>
+                </div>
+            </form>
+            <div class='container my-3 bg-success text-center' *ngIf="resp != '' ">
+                <p class="text-uppercase pt-2 fw-bold text-white">{{resp}}</p>
+              </div>
+    <!--     // end -->
+        </div>
+    </div>
+    </div>

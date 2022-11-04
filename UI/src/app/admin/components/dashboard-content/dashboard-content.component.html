@@ -1,0 +1,53 @@
+<main class="col-md-12 ml-sm-auto col-lg-10 px-md-4 py-4" id="dash">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Admin</li>
+            <li class="breadcrumb-item active" aria-current="page">Kontrolna tabla</li>
+        </ol>
+    </nav>
+    <h1 class="h2 text-white">Dobrodošao/la {{user.username}}!</h1>
+    <div class="row my-4">
+     
+  
+
+        <div class="col-lg-12 col-md-12 mb-4 mb-lg-0 col-lg-3 pt-3">
+          <div class="card">
+              <h5 class="card-header">Slike</h5>
+              <div class="card-body">
+                  <div class="table-responsive">
+                      <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Id</th>
+                              <th scope="col">Slika</th>
+                              <th scope="col">Postovi</th>
+                              <th scope="col">Korisnik</th>
+                              <th scope="col">Kreirana</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr *ngFor="let i of images | paginate: { itemsPerPage: 5, currentPage: p, totalItems: total } ">
+                              <td>{{i.id}}</td>
+                              <td><img src="http://localhost:5000/Images/{{i.path}}" class="img-thumbnail slika"></td>
+                              <td>{{i.postsCount}}</td>
+                              <td>{{i.user==''? 'Nijedan': i.user}}</td>
+                              <td>{{i.createdAt}}</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                  </div>
+                  <div class="container paginacija2 text-center">
+                    <pagination-controls (pageChange)="pageChangeEvent($event)"></pagination-controls>
+                    <span>Ukupno: {{total}}</span>
+                  </div>
+              </div>
+          </div>
+        </div>
+   
+
+    
+
+    </div>
+    <a (click)="navigate()" class="btn btn-lg text-white btn-primary"><i class='fa-solid fa-home'></i> Blog</a>
+   
+</main>

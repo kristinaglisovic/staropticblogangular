@@ -1,0 +1,90 @@
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\bin\Debug\net5.0\Blog.Application.deps.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\bin\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\bin\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\obj\Debug\net5.0\Blog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\obj\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\obj\Debug\net5.0\refint\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\obj\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.Application\obj\Debug\net5.0\ref\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\bin\Debug\net5.0\Blog.Application.deps.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\bin\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\bin\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\obj\Debug\net5.0\refint\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.Application\obj\Debug\net5.0\ref\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\bin\Debug\net5.0\Blog.Application.deps.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\bin\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\bin\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\obj\Debug\net5.0\refint\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\obj\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.Application\obj\Debug\net5.0\ref\Blog.Application.dll
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\bin\Debug\net5.0\Blog.Application.deps.json
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\bin\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\bin\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\obj\Debug\net5.0\refint\Blog.Application.dll
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\AZZPP\Blog.Application\obj\Debug\net5.0\ref\Blog.Application.dll
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\bin\Debug\net5.0\Blog.Application.deps.json
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\bin\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\bin\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\obj\Debug\net5.0\refint\Blog.Application.dll
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\obj\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.Application\obj\Debug\net5.0\ref\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\bin\Debug\net5.0\Blog.Application.deps.json
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\bin\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\bin\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\obj\Debug\net5.0\Blog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\obj\Debug\net5.0\Blog.Application.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\obj\Debug\net5.0\Blog.Application.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\obj\Debug\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\obj\Debug\net5.0\refint\Blog.Application.dll
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\obj\Debug\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\ANGULAR ISPIT\Api\Blog.Application\obj\Debug\net5.0\ref\Blog.Application.dll

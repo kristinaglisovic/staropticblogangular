@@ -1,0 +1,70 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Dodaj
+  </button>
+ 
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+    
+            <form [formGroup]="addPost" (ngSubmit)="onSubmit()">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Novi post</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left">
+                      <div class="mb-3">
+                        <ng-container *ngIf="(f['Title'].touched && f['Title'].invalid)">
+                            <p *ngIf="f['Title'].hasError('required')" class="text-danger">Naziv je obavezan</p>
+                            <p *ngIf="f['Title'].hasError('minlength')" class="text-danger">Minimalan broj karaktera je 3</p>
+                            <p *ngIf="f['Title'].hasError('maxlength')" class="text-danger">Maksimalan broj karaktera je 30</p>
+                          </ng-container>
+                          <label for="title" class="form-label">Naziv</label>
+                          <input type="text" class="form-control" id="title" aria-describedby="naziv" formControlName="Title" required>
+                      </div>
+                      <div class="mb-3">
+                        <ng-container *ngIf="(f['Description'].touched && f['Description'].invalid)">
+                            <p *ngIf="f['Description'].hasError('required')" class="text-danger">Opis je obavezan</p>
+                            <p *ngIf="f['Description'].hasError('minlength')" class="text-danger">Minimalan broj karaktera je 5</p>
+                            <p *ngIf="f['Description'].hasError('maxlength')" class="text-danger">Maksimalan broj karaktera je 200</p>
+                          </ng-container>
+                        <label for="description" class="form-label">Opis</label>
+                        <input type="text" class="form-control" id="naziv" aria-describedby="description" formControlName="Description" required>
+                     </div>
+
+                     <div class="border">
+                        <p class="form-label"> Kategorije - bar 1 obavezna</p>
+                        <span *ngFor="let c of onlyActive(categories); let i=index" class="my-3 ml-2">
+                           
+                           <input type="checkbox" [value]="c.id" (change)="onCbChg($event)" required> {{c.name}}
+                        </span>
+                     </div>
+                     
+                    
+                     <div class="border mt-2">
+                        <p class="form-label"> Tagovi - bar 1 obavezan</p>
+                        <span *ngFor="let t of onlyActive(tags); let i=index" class="my-3 ml-2">
+                           <input type="checkbox" [value]="t.id" (change)="onCbChg2($event)" required> {{t.name}}
+                        </span>
+                     </div>
+                    
+
+                    <div class="mb-3 pt-2">
+                        <label for="image" class="form-label">Slika (.jpg, .png, .jpeg, .gif)</label>
+                        <input type="file" class="form-control" id="image" aria-describedby="image" (change)="onFileChange($event)" formControlName="Image">
+                        <p *ngIf="resp2!=''" class="text-danger pb-2">{{resp2}}</p>
+                    </div>
+              </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+                    <button type="submit" class="btn btn-primary" [disabled]="addPost.invalid">Dodaj</button>
+                </div>
+            </form>
+            <div class='container my-3 bg-success text-center' *ngIf="resp != '' ">
+                <p class="text-uppercase pt-2 fw-bold text-white">{{resp}}</p>
+              </div>
+    <!--     // end -->
+        </div>
+    </div>
+    </div>

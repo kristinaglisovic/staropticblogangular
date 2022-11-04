@@ -1,0 +1,53 @@
+<main class="col-md-12 col-lg-12 px-md-4 vh-100 py-4">
+
+    <div class="container table-responsive">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Admin</li>
+            <li class="breadcrumb-item active" aria-current="page">Sve kategorije</li>
+        </ol>
+    </nav>
+        <table class="table table-dark table-striped table-hover">
+            <thead>
+                <tr>
+                  <th scope="col">Id</th>
+                  <th scope="col">Naziv</th>
+                  <th scope="col">Aktivna</th>
+                  <th scope="col">Kreirana</th>
+                  <th scope="col">Ažurirana</th>
+                  <th scope="col">Br.postova</th>
+                  <th scope="col">Pogledaj</th>
+                  <th scope="col">Obriši</th>
+                  <th scope="col">Deaktiviraj</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let c of categories | paginate: { itemsPerPage: 5, currentPage: p, totalItems: total } ">
+                    <td>{{c.id}}</td>
+                    <td>{{c.name}}</td>
+                    <td>{{c.isActive ? "Da" : "Ne"}}</td>
+                    <td>{{c.createdAt}}</td>
+                    <td>{{c.updatedAt ? c.updatedAt : 'Nije ažurirana'}}</td>
+                    <td  class="text-center">{{c.postsCount}}</td>
+                    <td class="text-center"><a [routerLink]="['/admin/categories',c.id]"><i class="fa-solid fa-eye text-warning"></i></a></td>
+                    <td class="text-center"><button class='btn' [disabled]="c.postsCount>=1" (click)="delete(c.id)"><i class="fa-solid text-danger fa-trash-can"></i></button></td>
+                    <td class="text-center"><button class='btn' [disabled]="!c.isActive || c.postsCount>=1" (click)="changeStatus(c.id)"><i [ngClass]="c.isActive ? 'fa-solid fa-circle-check text-success':'fa-solid fa-circle-xmark text-danger'" ></i></button></td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            <div class="container paginacija text-center">
+              <pagination-controls (pageChange)="pageChangeEvent($event)"></pagination-controls>
+              <span>Ukupno: {{total}}</span>
+            </div>
+          <div class='container my-3 bg-success text-center' *ngIf="resp != '' ">
+            <p class="text-uppercase py-4 fw-bold text-white">{{resp}}</p>
+          </div>
+          <div class="container text-right pt-3">
+            <p class="text-warning fw-bold">DODAJ NOVU KATEGORIJU</p>
+            <app-add-category></app-add-category>
+          </div>
+    </main>
+
+    

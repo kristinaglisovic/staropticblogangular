@@ -1,0 +1,37 @@
+<div class="sidebar-nav">
+  <nav class="navbar navbar-dark bg-dark shadow">
+      <div class="container">
+          <!-- Mobile Menu Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menus List -->
+        <div class="offcanvas offcanvas-start shadow bg-dark" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-body">
+                <h2 class="text-white border-bottom pb-2"><i class="fa-solid fa-link"></i>Linkovi</h2>
+                <ul class="navbar-nav">
+                    <li><a routerLink="/admin/dashboard" routerLinkActive="active-link" class="text-white"><i class="fa-solid fa-gauge"></i>KT</a></li>
+                    <li><a routerLink="/admin/posts" routerLinkActive="active-link" class="text-white"><i class="fa-solid fa-blog"></i>Postovi</a></li>
+                    <li><a routerLink="/admin/categories" routerLinkActive="active-link" class="text-white"><i class="fa-solid fa-c"></i>Kategorije</a></li>
+                    <li><a routerLink="/admin/tags" routerLinkActive="active-link" class="text-white"><i class="fa-solid fa-hashtag"></i>Tagovi</a></li>
+                    <li><a routerLink="/admin/users" routerLinkActive="active-link" class="text-white"><i class="fa-solid fa-users"></i>Korisnici</a></li>
+                    <li><a routerLink="/admin/comments" routerLinkActive="active-link" class="text-white"><i class="fa-solid fa-comments"></i>Komentari</a></li>
+                    <li><a (click)="navigate()" class="text-white"><i class="fa-solid fa-home"></i>Blog</a></li>
+               
+                </ul>
+          </div>
+        </div>
+
+        <h1 class="text-warning my-2 d-none d-md-block">Admin Panel</h1>
+
+        <div class="btn-group">
+
+                <span class="text-white fw-bold"><i class="fa-solid text-primary fa-user"></i> {{auth.user.username}}</span>
+        
+                <a class='ml-3' (click)="logout()"><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+
+    </div>
+</nav>
+</div>

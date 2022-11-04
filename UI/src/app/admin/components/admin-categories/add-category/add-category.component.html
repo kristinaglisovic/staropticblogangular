@@ -1,0 +1,47 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Dodaj
+  </button>
+ 
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+    
+            <form [formGroup]="addCategory" (ngSubmit)="onSubmit()">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Dodaj kategoriju</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left">
+                      <div class="mb-3">
+                        <ng-container *ngIf="(f['name'].touched && f['name'].invalid)">
+                            <p *ngIf="f['name'].hasError('required')" class="text-danger">Naziv je obavezan</p>
+                            <p *ngIf="f['name'].hasError('minlength')" class="text-danger">Minimalan broj karaktera je 3</p>
+                            <p *ngIf="f['name'].hasError('maxlength')" class="text-danger">Maksimalan broj karaktera je 20</p>
+                          </ng-container>
+                            <label for="naziv" class="form-label">Naziv</label>
+                            <input type="text" class="form-control" id="naziv" aria-describedby="naziv" formControlName="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <ng-container *ngIf="(f['description'].touched && f['description'].invalid)">
+                            <p *ngIf="f['description'].hasError('required')" class="text-danger">Opis je obavezan</p>
+                            <p *ngIf="f['description'].hasError('minlength')" class="text-danger">Minimalan broj karaktera je 3</p>
+                            <p *ngIf="f['description'].hasError('maxlength')" class="text-danger">Maksimalan broj karaktera je 50</p>
+                        </ng-container>
+                            <label for="opis" class="form-label">Opis</label>
+                            <input type="text" class="form-control" id="opis" aria-describedby="opis" formControlName="description" required>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Zatvori</button>
+                    <button type="submit" class="btn btn-primary">Dodaj</button>
+                </div>
+            </form>
+            <div class='container my-3 bg-success text-center' *ngIf="resp != '' ">
+                <p class="text-uppercase pt-2 fw-bold text-white">{{resp}}</p>
+              </div>
+    <!--     // end -->
+        </div>
+    </div>
+    </div>

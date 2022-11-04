@@ -1,0 +1,23 @@
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search>
+     <div class="row">
+    <div *ngFor="let post of onlyActive(posts) | paginate: { itemsPerPage: 4, currentPage: p, totalItems: total }" class="post col-xl-6 col-md-12">
+        <div class="post-thumbnail"><a [routerLink]="['/home/posts',post.id]"><img src="http://localhost:5000/Images/{{post.images[0]}}" alt="{{post.title}}" class="postImg"></a></div>
+        <div class="post-details">
+            <div class="post-meta d-flex justify-content-between">
+                <div class="date meta-last"><i class="fa-solid fa-clock"></i>{{post.createdAt}}</div>
+                <div class="category text-uppercase"><p>{{post.categories[0]}}</p></div>
+            </div>
+            <!-- LINK -->
+            <a [routerLink]="['/home/posts',post.id]">
+                <h3 class="h4">{{post.title}}</h3></a>
+            <p class="text-muted">{{post.description | truncate:138}}</p>
+            <footer class="post-footer d-flex align-items-center"><div class="author d-flex align-items-center flex-wrap">
+                    <div class="title"><span><i class="fa-solid fa-user"></i> {{post.authorUsername}}</span></div></div>
+                <div class="comments meta-last"><i class="fa-solid fa-comments"></i>{{post.commentsCount}}</div>
+            </footer>
+        </div>
+    </div>
+     </div>
+     <div class="container paginacija2 text-center">
+        <pagination-controls (pageChange)="pageChangeEvent($event)"></pagination-controls>
+      </div>

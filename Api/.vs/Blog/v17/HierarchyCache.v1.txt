@@ -1,0 +1,627 @@
+﻿++Solution 'Blog' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:Blog.sln
+++Blog.Tests
+i:{00000000-0000-0000-0000-000000000000}:Blog.Tests
+++Dependencies
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:>1993
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:>2253
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:>574
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:>573
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:>1992
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:>1031
+++Analyzers
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:analyzers
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:analyzers
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:analyzers
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:analyzers
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:analyzers
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:analyzers
+++Frameworks
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:frameworks
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:frameworks
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:frameworks
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:frameworks
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:frameworks
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:frameworks
+++Packages
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:packages
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:packages
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:packages
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:packages
+++Projects
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:projects
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:projects
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:projects
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:projects
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:projects
+++Validators
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:c:\users\korisnik\desktop\angular ispit\api\blog.tests\validators\
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\validators\
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:c:\users\korisnik\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.17\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++xunit.analyzers
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:c:\users\korisnik\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++Microsoft.NETCore.App
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:c:\users\korisnik\desktop\angular ispit\api\blog.tests\microsoft.netcore.app
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\microsoft.netcore.app
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\microsoft.netcore.app
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\microsoft.netcore.app
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\microsoft.netcore.app
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\microsoft.netcore.app
+++Microsoft.NET.Test.Sdk (17.2.0)
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:>2291
+++xunit (2.4.1)
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:>2293
+++xunit.runner.visualstudio (2.4.5)
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:>2295
+++Blog.Implementation
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\bin\release\net5.0\blog.implementation.dll
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\bin\release\net5.0\blog.implementation.dll
+i:{00000000-0000-0000-0000-000000000000}:Blog.Implementation
+++PostValidatorsTests.cs
+i:{a8664866-a115-4863-bbe5-a95d6ac0a658}:c:\users\korisnik\desktop\angular ispit\api\blog.tests\validators\postvalidatorstests.cs
+++Blog.Api
+i:{00000000-0000-0000-0000-000000000000}:Blog.Api
+++Connected Services 
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:>2254
+++Microsoft.AspNetCore.Analyzers
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\microsoft.aspnetcore.app
+++Blog.Application
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.application\bin\release\net5.0\blog.application.dll
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.application\bin\release\net5.0\blog.application.dll
+i:{00000000-0000-0000-0000-000000000000}:Blog.Application
+++Blog.DataAccess
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\bin\release\net5.0\blog.dataaccess.dll
+i:{00000000-0000-0000-0000-000000000000}:Blog.DataAccess
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\bin\release\net5.0\blog.dataaccess.dll
+++Blog.Domain
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\bin\release\net5.0\blog.domain.dll
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\bin\release\net5.0\blog.domain.dll
+i:{00000000-0000-0000-0000-000000000000}:Blog.Domain
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\bin\release\net5.0\blog.domain.dll
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\bin\release\net5.0\blog.domain.dll
+++Properties
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\properties\
+++launchSettings.json
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\properties\launchsettings.json
+++wwwroot
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\
+++Controllers
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\
+++CategoriesController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\categoriescontroller.cs
+++CommentsController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\commentscontroller.cs
+++DataController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\datacontroller.cs
+++ImagesController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\imagescontroller.cs
+++LikesController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\likescontroller.cs
+++PostCategoryController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\postcategorycontroller.cs
+++PostImagesController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\postimagescontroller.cs
+++PostsController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\postscontroller.cs
+++PostTagsController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\posttagscontroller.cs
+++RolesController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\rolescontroller.cs
+++TagsController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\tagscontroller.cs
+++TokenController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\tokencontroller.cs
+++UseCaseLogsController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\usecaselogscontroller.cs
+++UsersController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\userscontroller.cs
+++UserUseCasesController.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\controllers\userusecasescontroller.cs
+++Core
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\core\
+++AppSettings.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\core\appsettings.cs
+++GlobalExceptionHandler.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\core\globalexceptionhandler.cs
+++JwtManager.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\core\jwtmanager.cs
+++JwtSettings.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\core\jwtsettings.cs
+++JwtUser.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\core\jwtuser.cs
+++DTO
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\dto\
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\
+++Emails
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\emails\
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\emails\
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\emails\
+++Extensions
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\extensions\
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\extensions\
+++appsettings.json
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\appsettings.json
+++appsettings.Development.json
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\appsettings.development.json
+++Program.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\program.cs
+++Script.sql
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\script.sql
+++Startup.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\startup.cs
+++No service dependencies discovered
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:>2255
+++Microsoft.AspNetCore.Authentication.JwtBearer (5.0.17)
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:>2320
+++Swashbuckle.AspNetCore (5.6.3)
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:>2319
+++Images
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\
+++RegisterImageApiDto.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\dto\registerimageapidto.cs
+++FakeEmailSender.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\emails\fakeemailsender.cs
+++ContainerExtensions.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\extensions\containerextensions.cs
+++StringExtensions.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\extensions\stringextensions.cs
+++ValidationExtensions.cs
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\extensions\validationextensions.cs
+++15a8c312-8043-45dd-8bdc-4305a0c2aa04.jpg
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\15a8c312-8043-45dd-8bdc-4305a0c2aa04.jpg
+++16dc2e02-0a23-42cc-a03c-d22e68dc8334.JPG
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\16dc2e02-0a23-42cc-a03c-d22e68dc8334.jpg
+++56d95bd5-1255-44db-be37-7cfa3c670fd5.jpg
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\56d95bd5-1255-44db-be37-7cfa3c670fd5.jpg
+++6159bfb7-76f3-4d98-ae94-f54abdacd35d.jpg
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\6159bfb7-76f3-4d98-ae94-f54abdacd35d.jpg
+++7f7c0014-4524-4770-a192-9350e70b2f33.jpg
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\7f7c0014-4524-4770-a192-9350e70b2f33.jpg
+++835e0b5b-694a-4ffc-8252-d17d3622150d.png
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\835e0b5b-694a-4ffc-8252-d17d3622150d.png
+++87a669ab-6030-43d4-8f92-a7d17b1a4588.jpg
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\87a669ab-6030-43d4-8f92-a7d17b1a4588.jpg
+++abeb3c9d-ccff-4ef2-8422-a6958ee3ac98.jpg
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\abeb3c9d-ccff-4ef2-8422-a6958ee3ac98.jpg
+++b5cbbed6-7a2d-4a85-856a-ca895511e4eb.jpg
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\b5cbbed6-7a2d-4a85-856a-ca895511e4eb.jpg
+++b9a200d4-2db5-44e3-bdb4-1e8444535f01.jpg
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\b9a200d4-2db5-44e3-bdb4-1e8444535f01.jpg
+++baac0690-8850-43aa-9188-67b8d6fd6baf.jpg
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\baac0690-8850-43aa-9188-67b8d6fd6baf.jpg
+++c518cbcd-ef47-4c46-8c97-034ad4ccb721.png
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\c518cbcd-ef47-4c46-8c97-034ad4ccb721.png
+++c6a66302-154b-4d6a-943d-91f853d658cd.png
+i:{8790bfe5-3af6-4694-b305-aa1108d67074}:c:\users\korisnik\desktop\angular ispit\api\blog.api\wwwroot\images\c6a66302-154b-4d6a-943d-91f853d658cd.png
+++Configurations
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\configurations\
+++Exceptions
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\exceptions\
+++Migrations
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\migrations\
+++BlogDbContext.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\blogdbcontext.cs
+++Microsoft.EntityFrameworkCore (5.0.17)
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:>2270
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.17)
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:>2271
+++Microsoft.EntityFrameworkCore.Tools (5.0.17)
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:>2272
+++CategoryConfiguration.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\configurations\categoryconfiguration.cs
+++CommentConfiguration.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\configurations\commentconfiguration.cs
+++EntityConfiguration.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\configurations\entityconfiguration.cs
+++ImageConfiguration.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\configurations\imageconfiguration.cs
+++PostConfiguration.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\configurations\postconfiguration.cs
+++RoleConfiguration.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\configurations\roleconfiguration.cs
+++TagConfiguration.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\configurations\tagconfiguration.cs
+++UserConfiguration.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\configurations\userconfiguration.cs
+++EntityNotFoundException.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\exceptions\entitynotfoundexception.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\exeptions\entitynotfoundexception.cs
+++DbSetExtensions.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\extensions\dbsetextensions.cs
+++20220611211731_Initial.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\migrations\20220611211731_initial.cs
+++20220612000204_RemovedLikedAt.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\migrations\20220612000204_removedlikedat.cs
+++BlogDbContextModelSnapshot.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\migrations\blogdbcontextmodelsnapshot.cs
+++20220611211731_Initial.Designer.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\migrations\20220611211731_initial.designer.cs
+++20220612000204_RemovedLikedAt.Designer.cs
+i:{24fbd94a-fb4f-48e5-b074-393784f3469e}:c:\users\korisnik\desktop\angular ispit\api\blog.dataaccess\migrations\20220612000204_removedlikedat.designer.cs
+++Entities
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\
+++Category.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\category.cs
+++Comment.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\comment.cs
+++Entity.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\entity.cs
+++IApplicationUser.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\iapplicationuser.cs
+++Image.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\image.cs
+++Like.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\like.cs
+++Post.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\post.cs
+++PostCategory.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\postcategory.cs
+++PostImage.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\postimage.cs
+++PostTag.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\posttag.cs
+++Role.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\role.cs
+++Tag.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\tag.cs
+++User.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\user.cs
+++UserUseCase.cs
+i:{3ff744f0-a93b-403d-afb3-9a8acd088e99}:c:\users\korisnik\desktop\angular ispit\api\blog.domain\entities\userusecase.cs
+++Logging
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\logging\
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\logging\
+++UseCases
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\
+++EfUseCase.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\efusecase.cs
+++UseCaseHandler.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecasehandler.cs
+++BCrypt.Net-Next (4.0.3)
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:>2296
+++Dapper (2.0.123)
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:>2292
+++FluentValidation (11.0.2)
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:>2294
+++Newtonsoft.Json (13.0.1)
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:>2290
+++SmtpEmailSender.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\emails\smtpemailsender.cs
+++UseCaseLogger
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\logging\usecaselogger\
+++ConsoleExceptionLogger.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\logging\consoleexceptionlogger.cs
+++Commands
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\
+++Queries
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\
+++CreateCategoryDTOValidator.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\validators\createcategorydtovalidator.cs
+++CreateCommentDTOValidator.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\validators\createcommentdtovalidator.cs
+++CreateLikeDTOValidator.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\validators\createlikedtovalidator.cs
+++CreatePostDTOValidator.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\validators\createpostdtovalidator.cs
+++CreateRoleDTOValidator.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\validators\createroledtovalidator.cs
+++CreateTagDTOValidator.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\validators\createtagdtovalidator.cs
+++RegisterValidator.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\validators\registervalidator.cs
+++SearchUseCaseLogsValidator.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\validators\searchusecaselogsvalidator.cs
+++UpdateUserUseCaseValidator.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\validators\updateuserusecasevalidator.cs
+++ConsoleUseCaseLogger.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\logging\usecaselogger\consoleusecaselogger.cs
+++SpUseCaseLogger.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\logging\usecaselogger\spusecaselogger.cs
+++Ef
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\
+++SP
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\sp\
+++EfCreateCategoryCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efcreatecategorycommand.cs
+++EfCreateCommentCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efcreatecommentcommand.cs
+++EfCreateImageCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efcreateimagecommand.cs
+++EfCreateLikeCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efcreatelikecommand.cs
+++EfCreatePostCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efcreatepostcommand.cs
+++EfCreateRoleCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efcreaterolecommand.cs
+++EfCreateTagCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efcreatetagcommand.cs
+++EfDeleteCategoryCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efdeletecategorycommand.cs
+++EfDeleteCommentCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efdeletecommentcommand.cs
+++EfDeleteImageCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efdeleteimagecommand.cs
+++EfDeleteLikeCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efdeletelikecommand.cs
+++EfDeletePostCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efdeletepostcommand.cs
+++EfDeleteRoleCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efdeleterolecommand.cs
+++EfDeleteTagCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efdeletetagcommand.cs
+++EfDeleteUserCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efdeleteusercommand.cs
+++EfRegisterUserCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efregisterusercommand.cs
+++EfSoftDeleteCategoryCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efsoftdeletecategorycommand.cs
+++EfSoftDeleteCommentCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efsoftdeletecommentcommand.cs
+++EfSoftDeleteImageCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efsoftdeleteimagecommand.cs
+++EfSoftDeleteLikeCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efsoftdeletelikecommand.cs
+++EfSoftDeletePostCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efsoftdeletepostcommand.cs
+++EfSoftDeleteRoleCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efsoftdeleterolecommand.cs
+++EfSoftDeleteTagCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efsoftdeletetagcommand.cs
+++EfSoftDeleteUserCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efsoftdeleteusercommand.cs
+++EfUpdateUserUseCasesCommand.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\commands\ef\efupdateuserusecasescommand.cs
+++EfGetCategoriesQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetcategoriesquery.cs
+++EfGetCategoryQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetcategoryquery.cs
+++EfGetCommentQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetcommentquery.cs
+++EfGetCommentsQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetcommentsquery.cs
+++EfGetImageQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetimagequery.cs
+++EfGetImagesQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetimagesquery.cs
+++EfGetLikeQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetlikequery.cs
+++EfGetLikesQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetlikesquery.cs
+++EfGetPostCategoryQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetpostcategoryquery.cs
+++EfGetPostImagesQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetpostimagesquery.cs
+++EfGetPostQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetpostquery.cs
+++EfGetPostsQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetpostsquery.cs
+++EfGetPostTagsQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetposttagsquery.cs
+++EfGetRoleQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetrolequery.cs
+++EfGetRolesQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetrolesquery.cs
+++EfGetTagQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgettagquery.cs
+++EfGetTagsQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgettagsquery.cs
+++EfGetUserQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetuserquery.cs
+++EfGetUsersQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\ef\efgetusersquery.cs
+++GetUserCaseLogsQuery.cs
+i:{f4034465-747c-47d8-8089-7eb79c5b099f}:c:\users\korisnik\desktop\angular ispit\api\blog.implementation\usecases\queries\sp\getusercaselogsquery.cs
+++Exeptions
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\exeptions\
+++IEmailSender.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\emails\iemailsender.cs
+++MailMessage.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\emails\mailmessage.cs
+++ForbiddenUseCaseExecutionException.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\exeptions\forbiddenusecaseexecutionexception.cs
+++UseCaseConflictException.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\exeptions\usecaseconflictexception.cs
+++IExceptionLogger.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\logging\iexceptionlogger.cs
+++ICommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\icommand.cs
+++IQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\iquery.cs
+++IUseCase.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\iusecase.cs
+++IUseCaseLogger.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\iusecaselogger.cs
+++ICreateCategoryCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\icreatecategorycommand.cs
+++ICreateCommentCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\icreatecommentcommand.cs
+++ICreateImageCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\icreateimagecommand.cs
+++ICreateLikeCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\icreatelikecommand.cs
+++ICreatePostCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\icreatepostcommand.cs
+++ICreateRoleCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\icreaterolecommand.cs
+++ICreateTagCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\icreatetagcommand.cs
+++IDeleteCategoryUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\ideletecategoryusingintcommand.cs
+++IDeleteCommentUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\ideletecommentusingintcommand.cs
+++IDeleteImageUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\ideleteimageusingintcommand.cs
+++IDeleteLikeUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\ideletelikeusingintcommand.cs
+++IDeletePostUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\ideletepostusingintcommand.cs
+++IDeleteRoleUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\ideleteroleusingintcommand.cs
+++IDeleteTagUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\ideletetagusingintcommand.cs
+++IDeleteUserUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\ideleteuserusingintcommand.cs
+++IRegisterUserCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\iregisterusercommand.cs
+++ISoftDeleteCategoryUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\isoftdeletecategoryusingintcommand.cs
+++ISoftDeleteCommentUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\isoftdeletecommentusingintcommand.cs
+++ISoftDeleteImageUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\isoftdeleteimageusingintcommand.cs
+++ISoftDeleteLikeUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\isoftdeletelikeusingintcommand.cs
+++ISoftDeletePostUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\isoftdeletepostusingintcommand.cs
+++ISoftDeleteRoleUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\isoftdeleteroleusingintcommand.cs
+++ISoftDeleteTagUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\isoftdeletetagusingintcommand.cs
+++ISoftDeleteUserUsingIntCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\isoftdeleteuserusingintcommand.cs
+++IUpdateUserUseCasesCommand.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\commands\iupdateuserusecasescommand.cs
+++Category
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\category\
+++Comment
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\comment\
+++Image
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\image\
+++Like
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\like\
+++Post
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\post\
+++PostCategory
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\postcategory\
+++PostImage
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\postimage\
+++PostTag
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\posttag\
+++Roles
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\roles\
+++Searches
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\searches\
+++Tag
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\tag\
+++User
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\user\
+++BaseDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\basedto.cs
+++IGetCategoriesQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetcategoriesquery.cs
+++IGetCategoryQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetcategoryquery.cs
+++IGetCommentQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetcommentquery.cs
+++IGetCommentsQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetcommentsquery.cs
+++IGetImageQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetimagequery.cs
+++IGetImagesQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetimagesquery.cs
+++IGetLikeQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetlikequery.cs
+++IGetLikesQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetlikesquery.cs
+++IGetPostCategoryQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetpostcategoryquery.cs
+++IGetPostImagesQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetpostimagesquery.cs
+++IGetPostQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetpostquery.cs
+++IGetPostsQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetpostsquery.cs
+++IGetPostTagsQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetposttagsquery.cs
+++IGetRoleQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetrolequery.cs
+++IGetRolesQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetrolesquery.cs
+++IGetTagQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igettagquery.cs
+++IGetTagsQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igettagsquery.cs
+++IGetUseCaseLogsQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetusecaselogsquery.cs
+++IGetUserQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetuserquery.cs
+++IGetUsersQuery.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\igetusersquery.cs
+++PageResponse.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\queries\pageresponse.cs
+++CategoryDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\category\categorydto.cs
+++CreateCategoryDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\category\createcategorydto.cs
+++UpdateCategoryDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\category\updatecategorydto.cs
+++CommentDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\comment\commentdto.cs
+++CreateCommentDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\comment\createcommentdto.cs
+++ImageDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\image\imagedto.cs
+++CreateLikeDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\like\createlikedto.cs
+++LikeDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\like\likedto.cs
+++CreatePostDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\post\createpostdto.cs
+++PostDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\post\postdto.cs
+++UpdatePostDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\post\updatepostdto.cs
+++PostCategoryDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\postcategory\postcategorydto.cs
+++PostImagesDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\postimage\postimagesdto.cs
+++PostTagDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\posttag\posttagdto.cs
+++CreateRoleDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\roles\createroledto.cs
+++RoleDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\roles\roledto.cs
+++Searches.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\searches\searches.cs
+++CreateTagDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\tag\createtagdto.cs
+++TagDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\tag\tagdto.cs
+++UpdateTagDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\tag\updatetagdto.cs
+++RegisterDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\user\registerdto.cs
+++UpdateUserDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\user\updateuserdto.cs
+++UpdateUserUseCasesDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\user\updateuserusecasesdto.cs
+++UserDTO.cs
+i:{ba094572-f6c0-42be-8869-ea0dbf33d130}:c:\users\korisnik\desktop\angular ispit\api\blog.application\usecases\dto\user\userdto.cs
